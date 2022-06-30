@@ -49,7 +49,7 @@ export default {
       this.value3 = Math.round(Math.random() * 100);
     }, 5000);
   },
-  beforeDestroy() {
+  beforeUnmount() {
     this.refreshTimer = clearInterval(this.refreshTimer);
   },
 };

@@ -162,7 +162,7 @@ export default {
       this.currentTime = ct;
     });
   },
-  beforeDestroy() {
+  beforeUnmount() {
     if (this.player) {
       this.player.dispose();
     }

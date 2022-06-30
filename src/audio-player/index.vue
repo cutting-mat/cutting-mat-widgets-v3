@@ -52,7 +52,7 @@ export default {
     },
   },
   mounted() {},
-  beforeDestroy() {
+  beforeUnmount() {
     if (this.player) {
       this.player.destroy();
     }
