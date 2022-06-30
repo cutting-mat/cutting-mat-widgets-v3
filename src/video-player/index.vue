@@ -21,7 +21,7 @@ import '@tower1229/videojs-plugin-marker/dist/style.css';
 import '@tower1229/videojs-plugin-source-switcher/dist/style.css';
 import zhCn from './lib/zh-CN.js';
 
-import watermark from '../base-watermark/index.vue';
+import watermark from '../watermark/index.vue';
 
 window.videojs = videojs;
 
